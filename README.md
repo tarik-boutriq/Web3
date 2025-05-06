@@ -1,5 +1,5 @@
 # MonoSerie 🎬
-
+renommer ton dossier Web3-main en Web3
 ## 📌 Introduction
 MonoSerie est une plateforme web développée en **PHP** et **MySQL**, permettant la gestion et l'exploration de séries. Elle offre aux administrateurs des outils pour **ajouter, modifier et organiser** des séries avec leurs acteurs et catégories associées, tout en garantissant aux utilisateurs une navigation fluide et optimisée.
 
