@@ -1,5 +1,5 @@
 # MonoSerie 🎬
-renommer ton dossier Web3-main en Web3
+renommer ton dossier Web3-main a Web3
 
 ---------------pour se connecter --------------
 
