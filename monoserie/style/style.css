@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box
+}
+
+body {
+    background: linear-gradient(black, red, rgb(43, 43, 43));
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+
+/* Styles de la carte */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 540px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+
+.card .row {
+	padding: 5px;
+    display: flex;
+    align-items: center;
+	margin: 10px;
+}
+
+.card img {
+    width: 100px;
+	height: 140px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-body {
+    padding-left: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.text-body-secondary {
+    font-size: 20px;
+    color: #888;
+}
+
+.buttons-box {
+	margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.btn-edit {
+    background-color: #f39c12;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    background-color: #e67e22;
+}
+/*accueil*/    
+    .accueil-container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 50px 20px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 12px;
+    }
+    
+    .accueil-container h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+
+    
+

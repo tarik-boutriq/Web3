@@ -1,0 +1,120 @@
+  /*index.php*/
+  
+    .main-carousel__container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px; 
+        padding-bottom: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .main-carousel-item {
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 10px 10px 0 0; 
+        display: inline-block;
+        transition: all 1s;
+        position: relative;
+    }
+    .main-carousel-item:hover .carousel-item__details {
+        opacity: 1;
+    }
+    .main-carousel-item:hover {
+        transform: scale(1.2); 
+    }
+
+ /* Conservation de tes styles existants pour les détails */
+    .carousel-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .carousel-item__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel-item:hover .carousel-item__details {
+    opacity: 1;
+    }
+
+    .categories__title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    text-align: center;
+    }
+
+
+    
+
+
+  
+  
+  
+  
+  /*categorie.php*/
+  .carousel {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 30px 30px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    scrollbar-color: rgba(255, 255, 255, 0.267) transparent;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    margin: 20px 0;
+    padding-bottom: 10px;
+  }
+
+    .carousel-item {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 10px 0 0; 
+    display: inline-block;
+    transition: all 1s;
+    position: relative;
+    }
+
+
+
+
+
+  
+
+  /*Effet sur les autres items au survol */
+  .carousel-item:hover ~ .carousel-item {
+    transform: translateX(100px);
+  }
+
+  .carousel__container:hover .carousel-item {
+    opacity: 0.3;
+  }
+
+  .carousel__container:hover .carousel-item:hover {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+
+
+
+  /*voir.php*/
+
+  
